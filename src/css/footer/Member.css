@@ -1,0 +1,37 @@
+.member {
+  margin: 2rem;
+}
+
+.member .PP {
+  width: 8em;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}
+
+.member .content-item {
+  text-align: center;
+}
+
+.member .content-item .name {
+  font-family: var(--font-sec);
+  font-size: var(--button);
+  padding-bottom: 0.2em;
+  color: var(--accent-sec);
+  margin-bottom: 0.5rem;
+}
+
+.member .content-item .session {
+  font-family: var(--font-pr);
+  font-size: var(--para);
+  padding-bottom: 0.2em;
+  color: var(--text-sec);
+}
+
+.member .content-item .work {
+  font-family: var(--font-sec);
+  font-weight: bold;
+  font-size: var(--para);
+  padding-bottom: 0.2em;
+  color: var(--text-pr);
+}
+/*# sourceMappingURL=Member.css.map */

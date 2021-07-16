@@ -1,0 +1,75 @@
+.schemes-comp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 3rem 5rem;
+  font-family: var(--font-pr);
+}
+
+.schemes-comp .heading {
+  font-family: var(--font-pr);
+  color: var(--text-pr);
+  font-size: var(--heading-med);
+}
+
+.schemes-comp .menu {
+  background-color: var(--comp-pr);
+  border-radius: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2rem 0;
+}
+
+.schemes-comp .menu .item {
+  margin: 0 1rem;
+  color: var(--accent-sec);
+  font-weight: bold;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: var(--heading-small);
+}
+
+.schemes-comp .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.schemes-comp .container .schemes-link {
+  width: 20%;
+  margin: 1rem;
+  text-align: center;
+  background-color: var(--comp-pr);
+  border-radius: 10px;
+  padding: 0.5rem;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.schemes-comp .container .schemes-link .new-scheme .scheme-poster {
+  width: 80%;
+  height: 150px;
+}
+
+.schemes-comp .container .schemes-link:hover {
+  background-color: var(--comp-sec);
+}
+/*# sourceMappingURL=Competitions.css.map */

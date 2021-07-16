@@ -1,0 +1,35 @@
+.box-container {
+  padding: 1rem;
+  width: 100%;
+
+  .box {
+    width: 100%;
+    min-width: 400px;
+    height: 100%;
+    background-color: var(--comp-sec);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 2rem;
+    transition: all 0.2s ease;
+    font-family: var(--font-sec);
+    color: var(--text-pr);
+
+    h2 {
+      margin-bottom: 3%;
+      font-size: var(--heading-small);
+    }
+
+    p {
+      font-size: var(--span);
+    }
+  }
+
+  .box:hover {
+    background-color: var(--comp-sec-hover);
+  }
+}
